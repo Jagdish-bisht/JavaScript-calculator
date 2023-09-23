@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+body{
+    font-family: "Roboto", sans-serif;background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,151,255,1) 100%);}
+
+.heading{
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+.top-container{
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    height: 34rem;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:left    ;
+    align-items: center;
+    height: 29rem;
+    box-shadow:5px 10px 20px 0px rgb(29,25,25);
+    background-color: #1b1919;
+    border-radius: 1rem;
+}
+
+button{
+    padding: 10px;
+    height: 55px;
+    width: 55px;
+    border-radius: 2rem;
+    text-align: center;
+    color: white;
+    background-color:#4E4E50;
+    border:1px transparent solid;
+    transition:all 0.3s ease;
+    font-size: larger;
+    font-weight:600 ;
+    cursor: pointer;
+    transition: all ease-out;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    color:#C3073F;
+    font-size: 20px;
+}
+.input_container input{
+    height: 6rem;
+    width: 18rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    border-radius: 5px;
+    text-align: right;
+    color: white;
+    padding: 10px 10px; 
+    background-color: #1b1919;
+    border: 1px solid #1b1919;
+    border-radius: 1rem;
+}
+::placeholder {
+    color: white;
+  }
+
+.sign{
+    background-color:#C3073F;
+}
+.Clear{
+    width: 7.3rem;
+    background-color:#9f9fa1;
+    font-size: 22px;
+}
